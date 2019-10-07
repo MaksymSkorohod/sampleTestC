@@ -24,10 +24,6 @@ public class AddTwoValuesTests {
         assertEquals("10 + 5 must be 15", 15, calc.add(10, 5));
     }
 
-    @Test
-    public void testNewAddTwoPositiveValues() {
-        assertEquals("15 + 5 must be 20", 20, calc.add(15, 5));
-    }
 
     @Test
     public void testAddTwoNegativeValues() {
